@@ -9,15 +9,17 @@ h1 {
 }
 
 
+
 .profile-image {
-    width: 200px;
-    height: 200px;
-    margin-top: -100px;
+    width: 220px;
+    height: 220px;
+    margin-top: -6%;
     border-radius: 50%;
+    
 }
 .fondo{
-    width: 1920px;
-    height: 500px;
+    width: 100%;
+    height: 100%;;
 }
 .barra{
     width: 100%;
@@ -27,35 +29,30 @@ h1 {
 }
 
 
-.nombre {
-    margin-left: 38px;
-}
-
 .logo-arg-programa {
-    width: 9%;
+    width: 15%;
 }
 .boton1{
-
-    width:  40px;
+    width:  100%;
     height: 40px;
     border-radius: 50%;
     border-color: rgb(215, 223, 224) ;
 }
 
 .boton2{
-    width:  40px;
+    width:  100%;
     height: 40px;
     border-radius: 50%;
     border-color: rgb(215, 215, 224) ;
 }
 .boton3{
-   width:  40px;
+   width:  100%;
     height: 40px;
     border-radius: 50%;
     border-color: rgb(215, 215, 224) ;
 }
 .boton4{
-    width:  40px;
+    width:  100%;
     height: 40px;
 }
 
@@ -63,4 +60,52 @@ h1 {
     border:0;
     border-radius: 0%;
 
+}
+
+.experiencia {
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(196, 227, 240);
+    border-style: initial;
+    border-style:solid;
+    border-color: rgb(4, 61, 126);
+    
+}
+.estudios {
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(196, 227, 240);
+    border-style: initial;
+    border-style:solid;
+    border-color: rgb(4, 61, 126);
+}
+.sobremi{
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(196, 227, 240);
+    border-style: initial;
+    border-style:solid;
+    border-color: rgb(4, 61, 126);
+    padding-right: 1%;
+    display: inline-block;
+}
+
+.skills{
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(196, 227, 240);
+    border-style: initial;
+    border-style:solid;
+    border-color: rgb(4, 61, 126);
+}
+
+body {
+    background-color: rgb(87, 139, 189);
+}
+
+.progress {
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    --bs-progress-bar-bg: rgb(87, 139, 189);
+    margin-bottom: 6px;
 }
