@@ -1,21 +1,41 @@
 h1 {
     font-size: 22px;
-    color:black
+    color:black;
 }
+h5 {
+    text-align: center;
+    margin-bottom: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    background-image:url(imagenes/fondo2.jpg);
+    color: azure;
+    font-size: medium;
+
+}
+
+
+.subtexto {
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color:black;
+    margin-left: 0.3rem;
+}
+
 *{
     margin: 0;
     padding: 0;
 
 }
 
-
-
 .profile-image {
     width: 220px;
     height: 220px;
     margin-top: -6%;
     border-radius: 50%;
-    
+    margin-right: 3em;
 }
 .fondo{
     width: 100%;
@@ -23,14 +43,18 @@ h1 {
 }
 .barra{
     width: 100%;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     background-color: rgb(87, 139, 189);
+    position: fixed;
 }
 
 
 .logo-arg-programa {
-    width: 15%;
+    width: 11%;
+    height: 150%;
+    margin-top: -1%;
 }
 .boton1{
     width:  100%;
@@ -63,49 +87,188 @@ h1 {
 }
 
 .experiencia {
-    margin-left: 2px;
     margin-top: 2px;
     background-color: rgb(196, 227, 240);
     border-style: initial;
     border-style:solid;
     border-color: rgb(4, 61, 126);
+    padding-top: 0.2%;
     
 }
-.estudios {
-    margin-left: 2px;
+.educacion {
     margin-top: 2px;
+    padding-top: 0.2%;
     background-color: rgb(196, 227, 240);
     border-style: initial;
     border-style:solid;
     border-color: rgb(4, 61, 126);
+
 }
 .sobremi{
-    margin-left: 2px;
-    margin-top: 2px;
+    margin-top: 1%;
+    padding-top: 0.5%;
     background-color: rgb(196, 227, 240);
     border-style: initial;
     border-style:solid;
     border-color: rgb(4, 61, 126);
-    padding-right: 1%;
-    display: inline-block;
+
 }
 
 .skills{
-    margin-left: 2px;
     margin-top: 2px;
+    padding-top: 0.5%;
     background-color: rgb(196, 227, 240);
     border-style: initial;
     border-style:solid;
     border-color: rgb(4, 61, 126);
 }
 
+.iconos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyectos {
+        margin-top: 2px;
+        padding-top: 0.5%;
+        background-color: rgb(196, 227, 240);
+        border-style: initial;
+        border-style:solid;
+        border-color: rgb(4, 61, 126);
+
+    }
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card1 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.card2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.card3 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.card-text{
+    text-align: justify;
+}
 body {
     background-color: rgb(87, 139, 189);
 }
-
 .progress {
-    width: 25%;
+   
+    width: 95%;
     background-color: rgb(255, 255, 255);
     --bs-progress-bar-bg: rgb(87, 139, 189);
-    margin-bottom: 6px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.miskills{
+    display: flex;
+    justify-content:space-around;
+}
+.icon-skill1{
+    height: 5%;
+    width: 5%;
+    padding-bottom: 1%;
+}
+.icon-skill2{
+    height: 9%;
+    width: 9%;
+    padding-bottom: 1%;
+}
+.icon-skill3{
+    height: 8%;
+    width: 8%;
+    padding-bottom: 1%;
+}
+.js-icon {
+    height: 8%;
+    width: 8%;
+    padding-bottom: 1%;
+    margin-right: 1.5%;
+}
+.photoshop-icon {
+    height: 4.5%;
+    width: 4.5%;
+    margin-top: 1%;
+}
+.blender-icon {
+    height: 5%;
+    width: 5%;
+    padding-bottom: 1%;
+    margin-right: 1%;
+}
+.ilus-icon{
+    height: 9%;
+    width: 9%;
+    padding-bottom: 1%;
+    margin-left: 0.75%;
+}
+
+
+.mysql-icon{
+    height: 6%;
+    width: 6%;
+}
+.habilidad{
+    border-style:groove;
+    border-color: aqua;
+    margin: 1%;
+    display:flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+#perfil-imagen {
+    display: flex;
+}
+
+.texto-nombre {
+    margin-top: 15%;
+    font-style:italic;
+    font-family: 'Times New Roman';
+    font-size: 220%;
+}
+
+.UBA {
+    width: 7%;
+    height: 7%;
+    display: flex;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#miperfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conborde {
+    border-top-style:inherit;
+}
+
+p {
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 130% ;
+    font-family: Times;
+}
+
+.footer {
+    background-image: url(imagenes/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.botones-proyecto{
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 135);
+    margin-left: 3.5rem;
 }
